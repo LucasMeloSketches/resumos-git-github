@@ -22,9 +22,12 @@ Repositório para armazenar resumos de git e github do curso de versionamento de
 | cat **nome do arquivo** | abre o arquivo em texto |
 | cd **nome da pasta** | abre a pasta |
 | cd .. | volta uma pasta acima |
-| mkdir | cria pasta no local atual |
+| mkdir **nome da pasta** | cria pasta no local atual |
+| touch **nome do arquivo** | cria um arquivo na pasta atual |
 | git init | inicia versionamento na pasta selecionada |
 | git remote add origin **link** | adiciona origem a partir de um repositório remoto na pasta selecionada |
 | git status | mostra a branch atual e lista arquivos não rastreados |
 | git add **nome do arquivo** | rastreia o arquivo da lista |
 | git commit -m"**nome da commit**" | cria um comit com os arquivos novos rastreados |
+| git log | mostra descrições da commit |
+| git restore | volta todos arquivos modificados para a ultima versão |
