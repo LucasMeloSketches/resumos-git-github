@@ -31,3 +31,5 @@ Repositório para armazenar resumos de git e github do curso de versionamento de
 | git commit -m"**nome da commit**" | cria um comit com os arquivos novos rastreados |
 | git log | mostra descrições da commit |
 | git restore | volta todos arquivos modificados para a ultima versão |
+| git push -u origin main | manda as commits para um git remoto, depois de conectado com **git remote add** |
+| git pull | trás alterações no projeto a partir do git remoto conectado com **git remote add** |
